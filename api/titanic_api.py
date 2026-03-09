@@ -2,7 +2,7 @@
 from flask import Blueprint, request, jsonify
 from flask_restful import Api, Resource
 
-from ml.titanic_model import TitanicModel # used for REST API building
+from model.titanic_model import TitanicModel # used for REST API building
 
 # Import the TitanicModel class from the model file
 # from model.titanic import TitanicModel

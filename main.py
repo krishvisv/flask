@@ -31,7 +31,7 @@ from api.post import post_api  # Import the social media post API
 #from api.announcement import announcement_api ##temporary revert
 
 # database Initialization functions
-from ml import titanic_api
+from api import titanic_api
 from model.user import User, initUsers
 from model.user import Section;
 from model.github import GitHubUser
