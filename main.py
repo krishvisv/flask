@@ -31,6 +31,7 @@ from api.post import post_api  # Import the social media post API
 #from api.announcement import announcement_api ##temporary revert
 
 # database Initialization functions
+from ml import titanic_api
 from model.user import User, initUsers
 from model.user import Section;
 from model.github import GitHubUser
@@ -79,6 +80,8 @@ app.register_blueprint(classroom_api)
 app.register_blueprint(feedback_api)
 app.register_blueprint(joke_api)  # Register the joke API blueprint
 app.register_blueprint(post_api)  # Register the social media post API
+app.register_blueprint(titanic_api) # register titanic hw
+
 # app.register_blueprint(announcement_api) ##temporary revert
 
 # Tell Flask-Login the view function name of your login route
