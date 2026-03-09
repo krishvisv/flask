@@ -28,10 +28,10 @@ from api.microblog_api import microblog_api
 from api.classroom_api import classroom_api
 from hacks.joke import joke_api  # Import the joke API blueprint
 from api.post import post_api  # Import the social media post API
+from api.titanic_api import titanic_api
 #from api.announcement import announcement_api ##temporary revert
 
 # database Initialization functions
-from api import titanic_api
 from model.user import User, initUsers
 from model.user import Section;
 from model.github import GitHubUser
